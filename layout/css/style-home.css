@@ -1,0 +1,55 @@
+/* Start Home Page*/
+.html-header{
+    background-image: url(../images/bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.html-header .navbar-brand  img {
+    width: 2em;
+}
+
+.html-header .btn-1 {
+    background-color: rgb(192, 42, 254);
+    padding: 5px 15px;
+    border: 2px solid rgb(192, 42, 254);
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 5px 3px 11px rgba(255,255,255,0.2);
+    color: #fff;
+}
+
+.html-header .btn-1:focus {
+    box-shadow: 0px 1px 11px rgba(255,255,255,1);
+}
+
+.html-header .navbar a span {
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.html-header .content-header {
+    margin: 6em 0;
+}
+
+.html-header .content-header .head {
+    padding: 20px;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.html-header .content-header .btns a {
+    background:  linear-gradient(90deg, rgb(192, 42, 254), rgb(86, 42, 254), rgb(192, 42, 254));
+    padding: 10px 30px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    border-radius: 23px;
+}
+/* End Home Page*/
